@@ -44,7 +44,6 @@ def dataframe_to_dll(dataframe, table_name: str) -> str:
     (
     {ddl}
     )
-    DISTSTYLE ALL
     ;
 
     """.format(
